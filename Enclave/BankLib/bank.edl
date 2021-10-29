@@ -1,0 +1,14 @@
+
+/* bank.edl - EDL sample for trusted bank library. */
+
+enclave {
+
+    trusted {
+        public int ecall_createAccount([in, string] const char* arr);
+        public int ecall_transfer_fund([in, string] const char* sender, [in, string] const char* reveiver, int amount);
+        public int ecall_deposit_fund([in, string] const char* name, int amount);
+        public int ecall_withdraw_fund([in, string] const char* name, int amount);
+        public int ecall_get_balance([in, string] const char* name);
+    };
+};
+
