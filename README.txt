@@ -1,4 +1,5 @@
 ------------------------
+This project uses SampleEnclave to build a basic bank app.
 Purpose of SampleEnclave
 ------------------------
 The project demonstrates several fundamental usages of Intel(R) Software Guard 
